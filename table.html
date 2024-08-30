@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="home">
+      <h1 class="heading">TABLE TASK</h1>
+      <div class="searchbar">
+        <input
+          type="text"
+          class="search"
+          id="myInput"
+          placeholder="Search here"
+          onkeyup="myFunction()"
+        />
+        <button type="submit" class="search-icon">&#x1F50E;&#xFE0E;</button>
+      </div>
+      <div class="table" id="myTable">
+        <table>
+          <thead>
+            <tr>
+              <th>Serial No.</th>
+              <th>Category</th>
+              <th>Product Name</th>
+              <th>Ratings</th>
+              <th>Price $</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <div class="pagination" id="pagination">
+        <button></button>
+      </div>
+    </section>
+  </body>
+</html>
