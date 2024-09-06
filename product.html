@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css" />
+    <script src="product.js" defer></script>
+  </head>
+  <body>
+    <!-- <label class="switch toggle-theme"> </label> -->
+    <input type="checkbox" id="theme-toggle" />
+    <label for="theme-toggle"></label>
+
+    <!-- <button class="toggle-theme"></button> -->
+    <h1>Product Details</h1>
+    <div class="container" id="product-container">
+      <div>
+        <img src="" alt="" />
+      </div>
+      <div class="text">
+        <h2>Product Name</h2>
+        <p></p>
+        <stan
+          ><h3>Rating:</h3>
+          <p></p
+        ></stan>
+        <stan
+          ><h3>Price:</h3>
+          <p></p
+        ></stan>
+        <button type="submit" class="cart">Add To Cart</button>
+        <button type="submit" class="buy">Buy Now</button>
+      </div>
+    </div>
+    <div class="reviews">
+      <h3 class="review-h3">Reviews</h3>
+      <div class="product-reviews" id="product-reviews">
+        <div class="review-card"></div>
+      </div>
+      <hr />
+      <p class="write">Write your reviews below</p>
+      <hr />
+      <form id="review-form">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="number" id="rating" placeholder="Rating" />
+        <input type="date" id="date" />
+        <textarea id="review" placeholder="Your Review"></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+    </div>
+  </body>
+</html>
